@@ -1,0 +1,4 @@
+-- Create a private Storage bucket named "assignments".
+-- Keep the bucket private.
+-- The backend uses the Supabase service-role key ONLY on the server to upload/download.
+-- Never put SUPABASE_SERVICE_ROLE_KEY in React/Vite environment variables.
